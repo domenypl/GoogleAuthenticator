@@ -22,11 +22,11 @@
     ],
     "require": {
         "php": "^5.3 || ^7.0",
-        "paragonie/random_compat": "^2.0"
+        "paragonie/random_compat": "^1.4"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "~2.7|~3.0",
-        "sllh/php-cs-fixer-styleci-bridge": "^2.0"
+        "sllh/php-cs-fixer-styleci-bridge": "^2.0",
+        "phpunit/phpunit": "^5.7"
     },
     "autoload": {
         "psr-4": { "Google\\Authenticator\\": "src/" }
